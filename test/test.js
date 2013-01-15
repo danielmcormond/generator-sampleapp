@@ -7,7 +7,7 @@ var assert  = require("assert");
 describe('Sample App generator test', function() {
   before(helpers.before(path.join(__dirname, './temp')));
 
-  it('every generator can be required without throwing', function() {
+  it.skip('every generator can be required without throwing', function() {
     // not testing the actual run of generators yet
     this.all = require('../all');
   });
